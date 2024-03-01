@@ -1,17 +1,62 @@
-# Welcome to MkDocs
+# Manual de usuario
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Presentado por: Algoritmia SV.  
+[algoritmia.sv](https://www.algoritmia.sv)
 
-## Commands
+## Contenido
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### Clínica
 
-## Project layout
+- [Consultas](clinica/consultas.md)
+- [Pacientes](clinica/pacientes.md)
+- [Citas](clinica/citas.md)
+- [Notas](clinica/notas.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Laboratorio
+
+- [Exámenes](laboratorio/examenes.md)
+- [Resultados](laboratorio/resultados.md)
+- [Pacientes](laboratorio/pacientes.md)
+
+### Ventas
+
+- [Ventas](ventas/ventas.md)
+- [Clientes](ventas/clientes.md)
+- [Créditos](ventas/creditos.md)
+
+### Compras
+
+- [Compras](compras/compras.md)
+- [Proveedores](compras/proveedores.md)
+
+### Catálogo
+
+- [Productos](catalogo/productos.md)
+- [Servicios](catalogo/servicios.md)
+- [Categorías](catalogo/categorias.md)
+- [Combos](catalogo/combos.md)
+- [Productos genéricos](catalogo/productos-genericos.md)
+- [Unidades de medida](catalogo/unidades-de-medida.md)
+
+### Reportes
+
+- [Reportes de ventas](reportes/reportes-ventas.md)
+- [Reportes de compras](reportes/reportes-compras.md)
+- [Reportes de utilidad](reportes/reportes-utilidad.md)
+- [Inventario](reportes/reportes-inventario.md)
+- [Kardex](reportes/kardex.md)
+- [Productos perecederos](reportes/perecederos.md)
+- [Productos en escasez](reportes/escasez.md)
+- [Productos en exceso](reportes/exceso.md)
+
+### Herramientas
+
+- [Historial de actividades](herramientas/historial-actividades.md)
+- [Papelera](herramientas/papelera.md)
+
+### Configuraciones
+
+- [Datos de la entidad](configuraciones/entidad.md)
+- [Preferencias](configuraciones/preferencias.md)
+- [Roles](configuraciones/roles.md)
+- [Usuarios](configuraciones/usuarios.md)

@@ -1,14 +1,20 @@
 site_name: MimaKit
-site_url: https://docs.mimakit.com
+site_url: https://manuales.algoritmia.sv/mimakit/
 site_description: Manual de usuario de MimaKit
 site_author: Edwin Fajardo
 copyright: Copyright &copy;2024 Algoritmia SV
+site_dir: /store/bphp/manuals/mimakit
 nav:
   - Inicio: index.md
   - Clínica:
     - Pacientes: clinica/pacientes.md
     - Consultas: clinica/consultas.md
     - Citas: clinica/citas.md
+    - Notas: clinica/notas.md
+  - Laboratorio:
+    - Exámenes: laboratorio/examenes.md
+    - Resultados: laboratorio/resultados.md
+    - Pacientes: laboratorio/pacientes.md
   - Ventas:
     - Ventas: ventas/ventas.md
     - Clientes: ventas/clientes.md
@@ -20,8 +26,10 @@ nav:
   - Catálogo:
     - Productos: catalogo/productos.md
     - Servicios: catalogo/servicios.md
+    - Categorías: catalogo/categorias.md
     - Combos: catalogo/combos.md
     - 'Productos genéricos': catalogo/productos-genericos.md
+    - 'Unidades de medida': catalogo/unidades-de-medida.md
   - Reportes:
     - 'Reportes de ventas': reportes/reportes-ventas.md
     - 'Reportes de compras': reportes/reportes-compras.md
@@ -31,6 +39,9 @@ nav:
     - Precederos: reportes/perecederos.md
     - 'Productos en escasez': reportes/escasez.md
     - 'Productos en exceso': reportes/exceso.md
+  - Herramientas:
+    - 'Historial de actividades': herramientas/historial-actividades.md
+    - 'Papelera de reciclaje': herramientas/papelera.md
   - Configuraciones:
     - 'Datos de la empresa': configuraciones/entidad.md
     - Preferencias: configuraciones/preferencias.md
@@ -41,3 +52,5 @@ theme:
   name: mkdocs
   nav_style: dark
   locale: es
+extra_css:
+  - css/algoritmiasv.css
